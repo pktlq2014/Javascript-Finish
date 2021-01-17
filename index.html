@@ -4,31 +4,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
-
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-
-
   <!-- Carousel -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
-">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+"> -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <!--Font awesome CDN-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <!--Scroll reveal CDN-->
   <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="./css/all.css">
+  <!-- --------- Owl-Carousel ------------------->
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <!-- ------------ AOS Library ------------------------- -->
+  <link rel="stylesheet" href="./css/aos.css">
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="./css/styles.css" />
-
   <title>Phone Shop</title>
 </head>
 
 <body>
-
   <!-- Header -->
   <header id="header" class="header">
     <div class="navigation">
@@ -38,11 +37,15 @@
             <i class="fas fa-bars"></i>
           </div>
 
+
+
           <div class="nav__logo">
             <a href="/" class="scroll-link">
               PHONE
             </a>
           </div>
+
+
 
           <div class="nav__menu">
             <div class="menu__top">
@@ -67,14 +70,20 @@
             </ul>
           </div>
 
+
+
           <div class="nav__icons">
             <a href="#" class="icon__item">
               <i class="fas fa-user"></i>
             </a>
 
+
+
             <a href="#" class="icon__item">
               <i class="fas fa-search"></i>
             </a>
+
+
 
             <a href="#" class="icon__item">
               <i class="fas fa-shopping-cart"></i>
@@ -84,6 +93,8 @@
         </nav>
       </div>
     </div>
+
+
 
     <!-- Hero -->
     <div class="hero">
@@ -98,6 +109,8 @@
                   <p>Trending from mobile and headphone style collection</p>
                   <a href="./product.html"><button class="hero__btn">SHOP NOW</button></a>
                 </div>
+
+
                 <div class="hero__right">
                   <div class="hero__img-container">
                     <img class="banner_03" src="./images/banner_01.png" alt="banner2" />
@@ -121,11 +134,11 @@
                 </div>
               </div>
             </li>
-
-
-
           </ul>
         </div>
+
+
+
         <!-- 2 dấu chấm -->
         <div class="glide__bullets" data-glide-el="controls[nav]">
           <button class="glide__bullet" data-glide-dir="=0"></button>
@@ -150,6 +163,71 @@
 
 
 
+
+  <!--insert 4-->
+  <main>
+    <section>
+      <div class="blog">
+        <div class="container">
+          <div class="owl-carousel owl-theme blog-post">
+            <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+              <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
+              <div class="blog-title">
+                <h3>London Fashion week's continued the evolution</h3>
+                <button class="btn btn-blog">Fashion</button>
+                <span>2 minutes</span>
+              </div>
+            </div>
+
+
+
+            <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+              <img src="./assets/Blog-post/post-3.jpg" alt="post-1">
+              <div class="blog-title">
+                <h3>London Fashion week's continued the evolution</h3>
+                <button class="btn btn-blog">Fashion</button>
+                <span>2 minutes</span>
+              </div>
+            </div>
+
+
+
+            <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+              <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
+              <div class="blog-title">
+                <h3>London Fashion week's continued the evolution</h3>
+                <button class="btn btn-blog">Fashion</button>
+                <span>2 minutes</span>
+              </div>
+            </div>
+
+
+
+            <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+              <img src="./assets/Blog-post/post-5.png" alt="post-1">
+              <div class="blog-title">
+                <h3>London Fashion week's continued the evolution</h3>
+                <button class="btn btn-blog">Fashion</button>
+                <span>2 minutes</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="owl-navigation">
+            <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+            <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
   <!--insert 1-->
   <section class="discover-our-menu">
     <div class="container">
@@ -160,6 +238,9 @@
           <img src="images/menu-group-3.jpg" alt="">
           <img src="images/menu-group-4.jpg" alt="">
         </div>
+
+
+
         <div class="restaurant-description animate-right">
           <div class="global-headline">
             <h2 class="sub-headline">
@@ -192,11 +273,20 @@
             <h1 class="headline headline-dark">Delay</h1>
             <div class="asterisk"><i class="fas fa-asterisk"></i></div>
           </div>
+
+
+
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere quae exercitationem eligendi quasi
             repellat delectus, in officia natus cupiditate ad magnam voluptatum. Exercitationem nulla reprehenderit
             delectus aspernatur totam deleniti a.</p>
+
+
+
           <a href="#" class="btn body-btn">Make a reservation</a>
         </div>
+
+
+
         <div class="image-group animate-right">
           <img class="animate-top" src="images/delight-group-1.jpg" alt="">
           <img class="animate-bottom" src="images/delight-group-2.jpg" alt="">
@@ -209,6 +299,374 @@
 
 
 
+  <!--insert 5-->
+  <main>
+    <!------------------------ Site Content -------------------------->
+    <section class="container">
+      <div class="site-content">
+        <div class="posts">
+          <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+            <div class="post-image">
+              <div>
+                <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
+              </div>
+
+
+
+              <div class="post-info flex-row">
+                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14, 2019</span>
+                <span>2 Commets</span>
+              </div>
+            </div>
+
+
+
+            <div class="post-title">
+              <a href="#">Why should boys have all the fun? it's the women who are making india an
+                alcohol-loving contry</a>
+
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                illum similique veniam tempore unde?
+              </p>
+
+
+
+              <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <hr>
+
+
+
+          <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+            <div class="post-image">
+              <div>
+                <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
+              </div>
+
+
+
+              <div class="post-info flex-row">
+                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 16, 2019</span>
+                <span>7 Commets</span>
+              </div>
+            </div>
+
+
+
+            <div class="post-title">
+              <a href="#">Why should boys have all the fun? it's the women who are making india an
+                alcohol-loving contry</a>
+
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                illum similique veniam tempore unde?
+              </p>
+
+
+
+              <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <hr>
+
+
+
+          <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+            <div class="post-image">
+              <div>
+                <img src="./assets/Blog-post/blog3.png" class="img" alt="blog1">
+              </div>
+
+
+
+              <div class="post-info flex-row">
+                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 19, 2019</span>
+                <span>5 Commets</span>
+              </div>
+            </div>
+
+
+
+            <div class="post-title">
+              <a href="#">New data recording system to better analyse road accidents</a>
+
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                illum similique veniam tempore unde?
+              </p>
+
+
+
+              <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <hr>
+
+
+
+          <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+            <div class="post-image">
+              <div>
+                <img src="./assets/Blog-post/blog4.png" class="img" alt="blog1">
+              </div>
+
+
+
+              <div class="post-info flex-row">
+                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 21, 2019</span>
+                <span>12 Commets</span>
+              </div>
+            </div>
+
+
+
+            <div class="post-title">
+              <a href="#">New data recording system to better analyse road accidents</a>
+
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                illum similique veniam tempore unde?
+              </p>
+
+
+
+              <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+
+
+          <div class="pagination flex-row">
+            <a href="#"><i class="fas fa-chevron-left"></i></a>
+            <a href="#" class="pages">1</a>
+            <a href="#" class="pages">2</a>
+            <a href="#" class="pages">3</a>
+            <a href="#"><i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+
+
+
+
+
+        <aside class="sidebar">
+          <div class="category">
+            <h2>Category</h2>
+
+
+
+            <ul class="category-list">
+              <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                <a href="#">Software</a>
+                <span>(05)</span>
+              </li>
+
+
+
+              <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                <a href="#">Techonlogy</a>
+                <span>(02)</span>
+              </li>
+
+
+
+              <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                <a href="#">Lifestyle</a>
+                <span>(07)</span>
+              </li>
+
+
+
+              <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                <a href="#">Shopping</a>
+                <span>(01)</span>
+              </li>
+
+
+
+              <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                <a href="#">Food</a>
+                <span>(08)</span>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="popular-post">
+            <h2>Popular Post</h2>
+            <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/popular-post/m-blog-1.jpg" class="img" alt="blog1">
+                </div>
+
+
+
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                    2019</span>
+                  <span>2 Commets</span>
+                </div>
+              </div>
+
+
+
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>
+            </div>
+
+
+
+            <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
+                </div>
+
+
+
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                    2019</span>
+                  <span>2 Commets</span>
+                </div>
+              </div>
+
+
+
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>
+            </div>
+
+
+
+            <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/popular-post/m-blog-3.jpg" class="img" alt="blog1">
+                </div>
+
+
+
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                    2019</span>
+                  <span>2 Commets</span>
+                </div>
+              </div>
+
+
+
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>
+            </div>
+
+
+
+            <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="blog1">
+                </div>
+
+
+
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                    2019</span>
+                  <span>2 Commets</span>
+                </div>
+              </div>
+
+
+
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>
+            </div>
+
+
+
+            <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="blog1">
+                </div>
+
+
+
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                    2019</span>
+                  <span>2 Commets</span>
+                </div>
+              </div>
+
+
+
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+            <h2>Newsletter</h2>
+
+
+
+            <div class="form-element">
+              <input type="text" class="input-element" placeholder="Email">
+              <button class="btn form-btn">Subscribe</button>
+            </div>
+          </div>
+
+
+
+          <div class="popular-tags">
+            <h2>Popular Tags</h2>
+
+
+            <div class="tags flex-row">
+              <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
+              <span class="tag" data-aos="flip-up" data-aos-delay="200">technology</span>
+              <span class="tag" data-aos="flip-up" data-aos-delay="300">travel</span>
+              <span class="tag" data-aos="flip-up" data-aos-delay="400">illustration</span>
+              <span class="tag" data-aos="flip-up" data-aos-delay="500">design</span>
+              <span class="tag" data-aos="flip-up" data-aos-delay="600">lifestyle</span>
+              <span class="tag" data-aos="flip-up" data-aos-delay="700">love</span>
+              <span class="tag" data-aos="flip-up" data-aos-delay="800">project</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- -----------x---------- Site Content -------------x------------>
+  </main>
 
   <!-- Main -->
   <main id="main">
@@ -220,6 +678,9 @@
             <div class="img__container">
               <img class="collection_02" src="./images/collection_02.png" alt="">
             </div>
+
+
+
             <div class="collection__content">
               <div class="collection__data">
                 <span>New Colors Introduced</span>
@@ -235,6 +696,9 @@
             <div class="img__container">
               <img class="collection_01" src="./images/collection_01.png" alt="">
             </div>
+
+
+
             <div class="collection__content">
               <div class="collection__data">
                 <span>Phone Device Presets</span>
@@ -245,6 +709,8 @@
           </div>
         </div>
       </section>
+
+
 
       <!-- Latest Products -->
       <section class="section latest__products" id="latest">
@@ -266,8 +732,14 @@
                     <div class="product__header">
                       <img src="./images/products/iPhone/iphone6.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Apple iPhone 11</h3>
+
+
+
                       <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -275,11 +747,20 @@
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
                       </div>
+
+
+
                       <div class="product__price">
                         <h4>$750</h4>
                       </div>
+
+
+
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -299,11 +780,17 @@
                     </ul>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
                       <img src="./images/products/sumsung/samsung5.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Samsung Galaxy</h3>
                       <div class="rating">
@@ -318,6 +805,9 @@
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -337,11 +827,17 @@
                     </ul>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
                       <img src="./images/products/headphone/headphone4.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Sony WH-CH510</h3>
                       <div class="rating">
@@ -356,6 +852,9 @@
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -375,11 +874,17 @@
                     </ul>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
                       <img src="./images/products/sumsung/samsung3.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Samsung Galaxy</h3>
                       <div class="rating">
@@ -394,6 +899,9 @@
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -413,11 +921,17 @@
                     </ul>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
                       <img src="./images/products/iPhone/iphone2.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Apple iPhone 11</h3>
                       <div class="rating">
@@ -432,6 +946,9 @@
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -451,11 +968,17 @@
                     </ul>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
                       <img src="./images/products/headphone/headphone2.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Sony WH-CH510</h3>
                       <div class="rating">
@@ -470,6 +993,9 @@
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -489,11 +1015,17 @@
                     </ul>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
                       <img src="./images/products/sumsung/samsung1.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Samsung Galaxy</h3>
                       <div class="rating">
@@ -508,6 +1040,9 @@
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -527,11 +1062,17 @@
                     </ul>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
                       <img src="./images/products/headphone/headphone1.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Sony WH-CH510</h3>
                       <div class="rating">
@@ -546,6 +1087,9 @@
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -565,11 +1109,17 @@
                     </ul>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="product">
                     <div class="product__header">
                       <img src="./images/products/iPhone/iphone1.jpeg" alt="product">
                     </div>
+
+
+
                     <div class="product__footer">
                       <h3>Apple iPhone XR</h3>
                       <div class="rating">
@@ -584,6 +1134,9 @@
                       </div>
                       <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
+
+
+
                     <ul>
                       <li>
                         <a data-tip="Quick View" data-place="left" href="#">
@@ -606,10 +1159,15 @@
               </ul>
             </div>
 
+
+
             <div class="glide__arrows" data-glide-el="controls">
               <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
                 <i class="fas fa-arrow-left"></i>
               </button>
+
+
+
               <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
                 <i class="fas fa-arrow-right"></i>
               </button>
@@ -623,13 +1181,14 @@
       <section class="category__section section" id="category">
         <div class="tab__list">
           <div class="title__container tabs">
-
             <div class="section__titles category__titles ">
               <div class="section__title filter-btn active" data-id="All Products">
                 <span class="dot"></span>
                 <h1 class="primary__title">All Products</h1>
               </div>
             </div>
+
+
 
             <div class="section__titles">
               <div class="section__title filter-btn" data-id="Trending Products">
@@ -638,6 +1197,8 @@
               </div>
             </div>
 
+
+
             <div class="section__titles">
               <div class="section__title filter-btn" data-id="Special Products">
                 <span class="dot"></span>
@@ -645,13 +1206,14 @@
               </div>
             </div>
 
+
+
             <div class="section__titles">
               <div class="section__title filter-btn" data-id="Featured Products">
                 <span class="dot"></span>
                 <h1 class="primary__title">Featured Products</h1>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -660,13 +1222,8 @@
         <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
           <div class="category__center"></div>
         </div>
-
-
-
       </section>
     </div>
-    </section>
-
 
 
 
@@ -676,13 +1233,14 @@
     <section class="facility__section section" id="facility">
       <div class="container">
         <div class="facility__contianer" data-aos="fade-up" data-aos-duration="1200">
-
           <div class="facility__box">
             <div class="facility-img__container">
               <i class="fas fa-plane"></i>
             </div>
             <p>FREE SHIPPING WORLD WIDE</p>
           </div>
+
+
 
           <div class="facility__box">
             <div class="facility-img__container">
@@ -691,6 +1249,8 @@
             <p>100% MONEY BACK GUARANTEE</p>
           </div>
 
+
+
           <div class="facility__box">
             <div class="facility-img__container">
               <i class="fas fa-credit-card"></i>
@@ -698,18 +1258,17 @@
             <p>MANY PAYMENT GATWAYS</p>
           </div>
 
+
+
           <div class="facility__box">
             <div class="facility-img__container">
               <i class="fas fa-headphones"></i>
             </div>
             <p>24/7 ONLINE SUPPORT</p>
           </div>
-
         </div>
       </div>
     </section>
-    </div>
-
 
 
 
@@ -726,21 +1285,33 @@
                   <div class="client__image">
                     <img src="./images/profile1.jpg" alt="profile">
                   </div>
+
+
+
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
                     quibusdam consequatur eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing
                     elit. Recusandae fuga hic nesciunt tempore
                     quibusdam consequatur eligendi unde officia ex quae.</p>
+
+
+
                   <div class="client__info">
                     <h3>John Smith</h3>
                     <span>Founder at Apple</span>
                   </div>
                 </div>
               </li>
+
+
+
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
                     <img src="./images/profile2.jpg" alt="profile">
                   </div>
+
+
+
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
                     quibusdam consequatur
                     eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
@@ -748,17 +1319,26 @@
                     quibusdam consequatur eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
                     nesciunt tempore
                     quibusdam consequatur eligendi unde officia ex quae.</p>
+
+
+
                   <div class="client__info">
                     <h3>John Smith</h3>
                     <span>Founder at Apple</span>
                   </div>
                 </div>
               </li>
+
+
+
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
                     <img src="./images/profile3.jpg" alt="profile">
                   </div>
+
+
+
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
                     quibusdam consequatur
                     eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
@@ -766,18 +1346,26 @@
                     quibusdam consequatur eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
                     nesciunt tempore
                     quibusdam consequatur eligendi unde officia ex quae.</p>
+
+
+
                   <div class="client__info">
                     <h3>John Smith</h3>
                     <span>Founder at Apple</span>
                   </div>
                 </div>
-
               </li>
+
+
+
               <li class="glide__slide">
                 <div class="testimonial__box">
                   <div class="client__image">
                     <img src="./images/profile4.jpg" alt="">
                   </div>
+
+
+
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
                     quibusdam consequatur
                     eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
@@ -786,6 +1374,9 @@
                     hic
                     nesciunt tempore
                     quibusdam consequatur eligendi unde officia ex quae.</p>
+
+
+
                   <div class="client__info">
                     <h3>John Smith</h3>
                     <span>Founder at Apple</span>
@@ -807,6 +1398,7 @@
         </div>
       </div>
     </section>
+
 
 
 
@@ -834,6 +1426,9 @@
                     <div class="card__header">
                       <img src="./images/news1.jpg" alt="">
                     </div>
+
+
+
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
                       <span>By Admin</span>
@@ -843,11 +1438,17 @@
                     </div>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
                       <img src="./images/news2.jpg" alt="">
                     </div>
+
+
+
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
                       <span>By Admin</span>
@@ -857,11 +1458,17 @@
                     </div>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
                       <img src="./images/news3.jpg" alt="">
                     </div>
+
+
+
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
                       <span>By Admin</span>
@@ -871,11 +1478,17 @@
                     </div>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
                       <img src="./images/news4.jpg" alt="">
                     </div>
+
+
+
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
                       <span>By Admin</span>
@@ -885,11 +1498,17 @@
                     </div>
                   </div>
                 </li>
+
+
+
                 <li class="glide__slide">
                   <div class="new__card">
                     <div class="card__header">
                       <img src="./images/news5.jpg" alt="">
                     </div>
+
+
+
                     <div class="card__footer">
                       <h3>Styling White Shirts After A Cool Day</h3>
                       <span>By Admin</span>
@@ -909,6 +1528,7 @@
 
 
 
+
     <!-- NewsLetter -->
     <section class="section newsletter" id="contact">
       <div class="container">
@@ -924,16 +1544,93 @@
         </div>
       </div>
     </section>
-
   </main>
-
   <!-- End Main -->
+
+
+
+
+
+  <!-- --------------------------- Footer ---------------------------------------- -->
+  <footer class="footer">
+    <div class="container">
+      <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+          iure, autem nulla tenetur repellendus.</p>
+      </div>
+
+
+
+      <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+        <h2>Newsletter</h2>
+        <p>Stay update with our latest</p>
+        <div class="form-element">
+          <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+        </div>
+      </div>
+
+
+
+      <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+        <h2>Instagram</h2>
+
+
+
+        <div class="flex-row">
+          <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+          <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+          <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+        </div>
+
+
+
+        <div class="flex-row">
+          <img src="./assets/instagram/thumb-card6.png" alt="insta4">
+          <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+          <img src="./assets/instagram/thumb-card8.png" alt="insta6">
+        </div>
+      </div>
+
+
+
+      <div class="follow" data-aos="fade-left" data-aos-delay="200">
+        <h2>Follow us</h2>
+        <p>Let us be Social</p>
+        <div>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="rights flex-row">
+      <h4 class="text-gray">
+        Copyright ©2020 All rights reserved | made by
+        <a href="www.youtube.com/c/dailytuition" target="_black">Daily Tuition <i class="fab fa-youtube"></i>
+          Channel</a>
+      </h4>
+    </div>
+
+
+
+    <div class="move-up">
+      <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+    </div>
+  </footer>
+
+
+
+
 
   <!-- Footer -->
   <footer id="footer" class="section footer">
     <div class="container">
       <div class="footer__top">
-
         <div class="footer-top__box">
           <h3>EXTRAS</h3>
           <a href="#">Brands</a>
@@ -942,6 +1639,8 @@
           <a href="#">Specials</a>
           <a href="#">Site Map</a>
         </div>
+
+
 
         <div class="footer-top__box">
           <h3>INFORMATION</h3>
@@ -952,6 +1651,8 @@
           <a href="#">Site Map</a>
         </div>
 
+
+
         <div class="footer-top__box">
           <h3>MY ACCOUNT</h3>
           <a href="#">My Account</a>
@@ -961,26 +1662,40 @@
           <a href="#">Returns</a>
         </div>
 
+
+
         <div class="footer-top__box">
           <h3>CONTACT US</h3>
+
+
+
           <div>
             <span>
               <i class="fas fa-map-marker-alt"></i>
             </span>
             42 Dream House, Dreammy street, 7131 Dreamville, USA
           </div>
+
+
+
           <div>
             <span>
               <i class="fas fa-envelope-square"></i>
             </span>
             company@gmail.com
           </div>
+
+
+
           <div>
             <span>
               <i class="fas fa-phone-square-alt"></i>
             </span>
             456-456-4512
           </div>
+
+
+
           <div>
             <span>
               <i class="far fa-paper-plane"></i>
@@ -988,16 +1703,15 @@
             Dream City, USA
           </div>
         </div>
-
       </div>
     </div>
 
+
+
     <div class="footer__bottom">
       <div class="footer-bottom__box">
-
       </div>
       <div class="footer-bottom__box">
-
       </div>
     </div>
     </div>
@@ -1016,6 +1730,9 @@
           <i class="fas fa-chevron-up"></i>
         </a>
       </div>
+
+
+
       <div class="footer-content">
         <div class="footer-content-about animate-top">
           <h4>About Rosa</h4>
@@ -1026,9 +1743,15 @@
             dignissimos ad iure, quia labore ut totam pariatur voluptatibus incidunt blanditiis obcaecati animi
             doloremque eius quisquam soluta.</p>
         </div>
+
+
+
         <div class="footer-content-divider animate-bottom">
           <div class="social-media">
             <h4>Follow along</h4>
+
+
+
             <ul class="social-icons">
               <li>
                 <a href="#">
@@ -1057,6 +1780,9 @@
               </li>
             </ul>
           </div>
+
+
+
           <div class="newsletter-container">
             <h4>Newsletter</h4>
             <form action="" class="newsletter-form">
@@ -1074,17 +1800,24 @@
 
 
 
+
   <!-- PopUp -->
   <div class="popup">
     <div class="popup__content">
       <div class="popup__close">
         <i class="fas fa-times-circle"></i>
       </div>
+
+
+
       <div class="popup__left">
         <div class="popup-img__container">
           <img class="popup__img" src="./images/popup.jpg" alt="popup">
         </div>
       </div>
+
+
+
       <div class="popup__right">
         <div class="right__content">
           <h1>Get Discount <span>30%</span> Off</h1>
@@ -1099,20 +1832,34 @@
     </div>
   </div>
 
+
+
+
+
+
   <!-- Go To -->
   <a href="#header" class="goto-top scroll-link">
     <i class="fas fa-arrow-up"></i>
   </a>
 
 
+
+
+
   <!-- Glide Carousel Script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
   <!-- Animate On Scroll -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+  <!-- Jquery Library file -->
+  <script src="./js/Jquery3.4.1.min.js"></script>
+  <!-- --------- Owl-Carousel js ------------------->
+  <script src="./js/owl.carousel.min.js"></script>
+  <!-- ------------ AOS js Library  ------------------------- -->
+  <script src="./js/aos.js"></script>
   <!-- Custom JavaScript -->
   <script src="./js/products.js"></script>
   <script src="./js/index.js"></script>
+  <script src="./js/main.js"></script>
   <script src="./js/slider.js"></script>
 
 </body>
